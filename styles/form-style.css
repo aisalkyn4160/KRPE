@@ -1,0 +1,90 @@
+.form{
+    padding: 77px 0 100px;
+    color: rgba(255, 255, 255, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form h2{
+    margin-bottom: 0;
+}
+.form p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.form form{
+    max-width: 690px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+form input{
+    width: 48%;
+    padding: 13px 24px;
+    border-radius: 10px;
+}
+form input::placeholder{
+    color: rgba(0, 0, 0, 0.49);
+
+}
+form input[type="file"]{
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    position: absolute;
+}
+form label{
+    width: 48%;
+    padding: 13px 24px;
+    background: transparent;
+    border: 1px dashed rgba(255, 255, 255, 0.48);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+form label span{
+    font-size: 26px;
+    padding-right: 10px;
+}
+form span{
+    font-size: 14px;
+    font-weight: 400;
+}
+form a{
+    text-decoration: underline !important;
+}
+.form-btn{
+    width: 100%;
+}
+.form-btn button{
+    width: 100%;
+    margin-top: 25px;
+}
+
+@media (max-width: 730px){
+    .form{
+        padding: 43px 0 60px;
+    }
+    .form p{
+        text-align: center;
+    }
+
+    form input{
+        width: 100%;
+    }
+    form label{
+        width: 100%;
+    }   
+    
+}

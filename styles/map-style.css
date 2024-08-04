@@ -1,0 +1,39 @@
+.map{
+    padding: 40px 0 80px;
+}
+
+.map-block{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+}
+ 
+.map h2{
+    max-width: 738px;
+    text-align: center;
+    margin: 0 auto;
+}
+.map-img{
+    display: block;
+    width: 80%;
+    margin: 80px auto 0;
+}
+.map-swiper-img{
+    height: 263px;
+    border-radius: 20px;
+}
+.map-swiper-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+@media (max-width: 995px){
+    .map-block{
+        margin-bottom: 46px;
+    }
+   
+}

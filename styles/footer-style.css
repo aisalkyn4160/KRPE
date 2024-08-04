@@ -1,0 +1,88 @@
+.footer-top{
+    padding: 80px 0 50px;
+    border-bottom: 1px solid rgba(155, 155, 155, 0.17);
+}
+
+.footer-top .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+}
+
+.footer-top .contacts{
+    align-items: flex-start;
+    gap: 25px;
+}
+.footer-top .contacts a{
+    display: inline-flex;
+    align-items: center;
+    gap: 23px;
+}
+.footer-top .contacts .mail span{
+    border-bottom: 1px dashed rgba(255, 255, 255, 1);
+}
+
+.footer-top nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+.footer-btns button{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+
+.footer-bottom.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.development {
+    display: flex;
+    gap: 14px;
+}
+.development p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.development svg {
+    flex-shrink: 0;
+}
+
+@media (max-width: 1050px){
+    .footer-top .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-btns{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 850px){
+    .footer-top{
+        padding: 55px 0 47px;
+    }
+    .footer-top .container{
+        grid-template-columns: 1fr;
+    }
+    .footer-bottom{
+        padding: 30px 15px;
+    }
+    .footer-bottom.container{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}
