@@ -49,6 +49,13 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+
+.project-card ul li .dotted{
+    display: block;
+    flex-grow: 1;
+    border-bottom: 1.5px dotted rgba(128, 131, 142, 1);
+    margin-bottom: 5px;
+}
 .project-card ul li p{
     white-space: nowrap;
 }

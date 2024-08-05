@@ -90,7 +90,8 @@ footer{
 	padding: 0 15px;
 }
 
-button{
+button,
+.red-btn{
 	padding: 10px 22px;
 	line-height: 27px;
 	color: rgba(255, 255, 255, 1);
@@ -104,7 +105,8 @@ button{
 	transition: background 0.3s;
 }
 
-button:hover{
+button:hover,
+.red-btn:hover{
 	background: rgba(214, 17, 23, 1);
 }
 
