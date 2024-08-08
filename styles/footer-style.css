@@ -21,7 +21,9 @@
 .footer-top .contacts .mail span{
     border-bottom: 1px dashed rgba(255, 255, 255, 1);
 }
-
+.phone{
+    white-space: nowrap;
+}
 .footer-top nav ul{
     display: flex;
     flex-direction: column;
