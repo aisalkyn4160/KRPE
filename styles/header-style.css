@@ -9,7 +9,8 @@
 	gap: 47px;
 }
 .logo{
-	width: 30%;	
+	width: 36%;	
+	cursor: pointer;
 }
 .logo img{
 	max-width: 100%;

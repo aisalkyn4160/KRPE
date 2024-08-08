@@ -4,7 +4,7 @@
 
 .map-block{
     background-repeat: no-repeat;
-    background-size: 1200px ;
+    background-size: 1200px 100%;
     background-position: top left;
     margin-bottom: 80px;
     padding-bottom: 80px;
@@ -19,8 +19,6 @@
     display: block;
     margin-left: 143px;
     margin-top: 133px;
-    /* width: 80%; */
-    /* margin: 80px auto 0; */
 }
 .map-swiper-img{
     height: 263px;
